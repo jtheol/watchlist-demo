@@ -34,6 +34,4 @@ export async function addWatch(formData: FormData) {
     return;
   }
   revalidatePath("/watch-list"); // See updated watch list
-
-  return {message: "Success"}
 }

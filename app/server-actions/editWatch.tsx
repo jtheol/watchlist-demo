@@ -39,6 +39,4 @@ export async function editWatch (formData: FormData) {
   }
 
   revalidatePath("/watch-list")
-
-  return {message: "Updated watch."}
 }

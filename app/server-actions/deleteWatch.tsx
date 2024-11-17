@@ -28,6 +28,4 @@ export async function deleteWatch(formData: FormData) {
   }
 
   revalidatePath("/watch-list")
-
-  return {message: `Deleted watch with ${watchId}`}
 }
