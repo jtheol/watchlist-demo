@@ -8,7 +8,7 @@ export default function WatchForm() {
           htmlFor="brand"
           className="block text-sm font-medium text-gray-300 mb-2"
         >
-          Brand
+          Brand Name
         </label>
         <input
           type="text"
