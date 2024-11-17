@@ -12,7 +12,7 @@ export default function AuthForm() {
     view="magic_link"
     showLinks={false}
     providers={[]}
-    redirectTo="http://localhost:3000/auth/callback" // Change this for deployment.
+    redirectTo="https://watchlist-demo.vercel.app/auth/callback" // Change this for deployment.
     appearance={{
       theme: ThemeSupa, 
       className: {
